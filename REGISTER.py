@@ -39,7 +39,7 @@ def send_mail():
 				pass
 			emyapp.resizable(0,0)
 			emyapp.geometry("630x175+398+295")
-			emyapp.title("Registration Failed")
+			emyapp.title("Registration  Failed")
 			Label(emyapp,text="Error",font=30,relief=GROOVE).place(relx=0.27, rely=0.17, height=41, width=294)
 			Label(emyapp,text="Please delete existing root.dll file from DATASETS directory",font=30,relief=GROOVE).place(relx=0.06, rely=0.63, height=41, width=554)
 			emyapp.mainloop()
